@@ -54,8 +54,9 @@ abstract class DocumentNumberAbstract extends AbstractValidator {
 
     public function __construct($options = null) {
         parent::__construct($options);
-        if (array_key_exists('valid_if_empty', $options))
+        if (is_array($options) && array_key_exists('valid_if_empty', $options)) {
             $this->validIfEmpty = $options['valid_if_empty'];
+        }
     }
 
     /**
