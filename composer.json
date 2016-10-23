@@ -3,6 +3,7 @@
     "description": "Lib to validator things",
     "type": "library",
     "license": "MIT",
+    "minimum-stability": "stable",
     "authors": [
         {
             "name": "Luiz",
