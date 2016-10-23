@@ -1,0 +1,20 @@
+{
+    "name": "codeedu/code_validator",
+    "description": "Lib to validator things",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luiz",
+            "email": "argentinaluiz@gmail.com"
+        }
+    ],
+    "require": {
+        "zendframework/zend-validator": "^2.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Code\\": "src/"
+        }
+    }
+}
