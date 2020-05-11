@@ -5,7 +5,7 @@
 - Você pode instalar via terminal usando Composer:
   
   ```composer 
-  composer require codeedu/code_validator:0.0.2 
+  composer require codeedu/code_validator:0.0.3 
   ```
   
 ## Usando com Laravel
